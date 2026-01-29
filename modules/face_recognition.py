@@ -30,7 +30,7 @@ class FaceRecognizer:
                 enforce_detection=False
             )
             if result:
-                return np.array(result[0]['embedding'])
+                return np.array(result[0]['embedding'], dtype=np.float64)
         except Exception:
             pass
         
