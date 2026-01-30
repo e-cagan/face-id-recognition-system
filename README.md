@@ -91,7 +91,7 @@ Edit `config.py` to customize settings:
 | Parameter | Default | Description |
 |-----------|---------|-------------|
 | `DETECTOR_BACKEND` | `opencv` | Face detector: opencv, mtcnn, retinaface, ssd |
-| `RECOGNITION_MODEL` | `VGG-Face` | Model: VGG-Face, Facenet, Facenet512, ArcFace |
+| `RECOGNITION_MODEL` | `Facenet` | Model: VGG-Face, Facenet, Facenet512, ArcFace |
 | `DISTANCE_METRIC` | `cosine` | Metric: cosine, euclidean, euclidean_l2 |
 | `RECOGNITION_THRESHOLD` | `0.40` | Match threshold (lower = stricter) |
 | `CAMERA_INDEX` | `0` | Camera device index |
