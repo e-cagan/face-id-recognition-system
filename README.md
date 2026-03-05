@@ -28,9 +28,9 @@ face-id-system/
 │   └── embeddings.db   # SQLite database (created at runtime)
 └── modules/
     ├── __init__.py
-    ├── detection.py       # Face detection (OpenCV + DeepFace)
-    ├── recognition.py     # Embedding extraction and matching
-    ├── registration.py    # User enrollment workflow
+    ├── face_detection.py       # Face detection (OpenCV + DeepFace)
+    ├── face_recognition.py     # Embedding extraction and matching
+    ├── user_registration.py    # User enrollment workflow
     └── data_manager.py    # SQLite CRUD operations
 ```
 
